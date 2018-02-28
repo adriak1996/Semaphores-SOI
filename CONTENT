@@ -1,0 +1,33 @@
+##################################################
+#### Project consists of: ########################
+##################################################
+
+##DIR: Bin ########################
+(Space for executable files, genereted by scrpit 'start.sh')
+
+##DIR: Headers#####################
+A.h         - implentation of consumer A's functions
+B.h         - implentation of consumer B's functions
+C.h         - implentation of consumer C's functions
+prod.h      - implentation of producer's functions
+sem.h       - constans, variables, semaphores and their functions
+queue.h     - implentation of simple queue
+
+##DIR: LinuxRun####################
+start.sh    - bash script to start simulation
+clear.sh    - bash script to stop simulation and/or remove simulation's processes from OS memory
+
+##DIR: Sources#####################
+A.c         - proccess imitating consumer A's behaviour
+B.c         - proccess imitating consumer B's behaviour
+C.c         - proccess imitating consumer C's behaviour
+prod.c      - proccess imitating producer's behaviour
+main.c      - proccess setting initial set of data (shared memory/queue's variables/etc.)
+
+
+##FILE: README####################
+README      - descpition of project, short guide and credits
+
+
+##FILE: CONTENT###################
+CONTENT     - list of dirs and files
